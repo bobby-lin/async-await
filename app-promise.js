@@ -47,6 +47,15 @@ var getStatusAsyncAwait = async (id) => {
   return `${user.name} scored an average of ${average}% in school.`
 }
 
+
+
+
+
+
+
+
+
+
 var getGrades = (schoolId) => {
   return new Promise((resolve, reject) => {
     resolve(grades.filter((grade) => grade.schoolId === schoolId));
